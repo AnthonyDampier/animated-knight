@@ -8,8 +8,8 @@ export default function App() {
   return (
     <div className="App">
       <div className={`knight ${swinging ? 'swinging' : ''}`}>
-        <i className="fas fa-chess-knight"></i>
-        <i className="fas fa-sword"></i>
+        <i className="fas fa-chess-knight">🤴🏽</i>
+        <i className="fas fa-sword">🔪</i>
       </div>
       <button onClick={() => setSwinging(!swinging)}>
         {swinging ? 'Stop Swinging' : 'Start Swinging'}
